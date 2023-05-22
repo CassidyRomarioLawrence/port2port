@@ -1,18 +1,38 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="home">
+    <LandingC/>
+  </div>
+  <div id="about">
+    <div class="container">
+      <h2 class="py-2">About Me :</h2>
+    </div>
+    <AboutC/>
+  </div>
+  <div id="resume">
+    <div class="container">
+      <h2 class="py-2">Resume :</h2>
+    </div>
+    <ResumeC/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import LandingC from '@/components/LandingC.vue';
+import AboutC from '@/components/AboutC.vue';
+import ResumeC from '@/components/ResumeC.vue';
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    LandingC,
+    AboutC,
+    ResumeC
   }
 }
 </script>
+
+<style>
+#home,#about,#resume{
+  min-height: 100vh;
+}
+</style>
