@@ -19,5 +19,6 @@ export default{
 
 #app {
   font-family: 'Playfair Display', serif;
+  overflow-x: hidden;
 }
 </style>

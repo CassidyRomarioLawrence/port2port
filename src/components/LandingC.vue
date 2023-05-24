@@ -3,7 +3,7 @@
     <div class="row w-100">
         <div class="col-sm-6 p-3">
             <h6>Welcome to my Portfolio</h6>
-            <h1>I'm, Cassidy Romario Lawrence</h1>
+            <h1>I'm, <span>Cassidy Romario Lawrence</span></h1>
             <h3>Full Stack Software Developer</h3>
         </div>
         <div class="col-sm-6 my-auto text-center">
@@ -22,6 +22,10 @@
 <style scoped>
 .landing{
     min-height: 90vh;
+}
+
+span{
+    color: #B9AA87;
 }
 
 .side-img{
