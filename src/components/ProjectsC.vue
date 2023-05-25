@@ -38,6 +38,13 @@
         cursor: pointer;
         border: 1.5px solid white;
         filter: grayscale();
+        transition: transform ease 0.3s;
+    }
+
+    .image-1:hover,.image-2:hover,.image-3:hover,.image-4:hover,.image-5:hover,.image-6:hover{
+        filter: none;
+        transform: scale(1.1);
+        z-index: 1;
     }
     .image-1{
         background-image: url(https://i.postimg.cc/DfBJ79G4/Screenshot-2023-05-12-090927.png);
